@@ -14,7 +14,8 @@
       "npm run prepack:clean && npm run prepack:babel && npm run prepack:flow",
     "prepack:clean": "rimraf lib",
     "prepack:babel": "babel -d lib src",
-    "prepack:flow": "flow-copy-source -v src lib"
+    "prepack:flow": "flow-copy-source -v src lib",
+    "rimraf": "./node_modules/rimraf/bin.js"
   },
   "dependencies": {
     "lodash": "^4.15.0",
